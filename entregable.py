@@ -96,7 +96,7 @@ for i in range(10):
     color = 'green' if y_pred[i] == y_test[i] else 'red'
     plt.title(f'R:{y_test[i]} P:{y_pred[i]}', color=color, fontsize=9)
     plt.axis('off')
-plt.suptitle('Predicciones vs etiquetas reales (verde=correcto, rojo=error)')
+plt.suptitle('ppredicciones vs etiquetas reales (verde=correcto, rojo=error)')
 plt.tight_layout()
 plt.show()
 
