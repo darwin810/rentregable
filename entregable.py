@@ -100,7 +100,6 @@ plt.suptitle('Predicciones vs etiquetas reales (verde=correcto, rojo=error)')
 plt.tight_layout()
 plt.show()
 
-# ── 9. PREDICCIÓN INDIVIDUAL ─────────────────────────────────────────────────
 
 pred = model.predict(x_test[:1])
 print('Predicción:', np.argmax(pred))
